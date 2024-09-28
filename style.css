@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* box1 */
+.nav-logo{
+    height: 54px;
+    width: 110px;
+}
+.logo{
+    background-image: url(Pictures/amazon_logo.png);
+    background-size: cover;
+    height: 54px;
+    width: 100%;
+    border: 1.5px solid transparent;
+    border-radius: 3px;
+}
+.logo:hover{
+    border: 1.5px solid white;
+    border-radius: 3px;
+}
+/* box2 */
+.nav-address{
+    border: 1.5px solid transparent;
+    border-radius: 3px;
+    padding: 10px;
+    margin-left: 3px;
+}
+.nav-address:hover{
+    border: 1.5px solid white;
+    border-radius: 3px;
+}
+.del{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.map{
+    margin-right: 3px;
+}
+.nep{
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+/* box3 */
+.nav-search{
+    display: flex;
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    border: 2px solid transparent;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.select{
+    background-color: #dfdfdf;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+.search{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd69;
+    font-size: 1.2rem;
+    color: black;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.search-icon:hover{
+    background-color: #fab559;
+}
+/* box4 & box5*/ 
+.nav-first{
+    font-size: 0.7rem;
+}
+.nav-sec{
+    font-size: 0.85;
+    font-weight: bold;
+}
+/* box4 */
+.nav-signin{
+    border: 1.5px solid transparent;
+    border-radius: 3px;
+    padding: 10px;
+}
+.nav-signin:hover{
+    border: 1.5px solid white;
+    border-radius: 3px;
+}
+/* box5 */
+.nav-returns{
+    border: 1.5px solid transparent;
+    border-radius: 3px;
+    padding: 9px;
+}
+.nav-returns:hover{
+    border: 1.5px solid white;
+    border-radius: 3px;
+}
+/* box6 */
+.cart-icon{
+    display: flex;
+    border: 1.5px solid transparent;
+    border-radius: 3px;
+    padding: 14px;
+}
+.cart-icon:hover{
+    border: 1.5px solid white;
+    border-radius: 3px;
+}
+.cart{
+    font-size:1.5rem ;
+}
+.cartt{
+    align-content: end;
+    margin-left: 4px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+/* panel */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    justify-content: cener;
+    align-items: center;
+}
+.panel-all{
+    width: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.ops{
+    
+    width: 80%;
+    font-size: 1rem;
+}
+.ops p{
+    margin-left: 10px;
+    display: inline;
+}
+.panel-deals{
+    font-size: 1rem;
+    font-weight: 500;
+}
+/* hero section */
+.hero-section{
+    background-image: url(Pictures/hero_image.jpg);
+    height: 350px;
+    background-size: cover;
+
+}
+.hero-msg{
+    height: 40px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    position: absolute;
+    margin-top: 290px;
+    width: 97.4%;
+    margin-left: 20px;
+}
+.hero-msg a{
+    color: #007185;
+}
+/* shop section */
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box{
+    height: 400px;
+    width: 22%;
+    background-color: white;
+    padding: 20px 13px 15px 13px;
+    margin-top: 15px;
+}
+.img-box1{
+    background-image: url(Pictures/box1_image.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.img-box2{
+    background-image: url(Pictures/box2_image.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.img-box3{
+    background-image: url(Pictures/box3_image.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.img-box4{
+    background-image: url(Pictures/box4_image.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.img-box5{
+    background-image: url(Pictures/box5_image.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.img-box6{
+    background-image: url(Pictures/box6_image.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.img-box7{
+    background-image: url(Pictures/box7_image.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.img-box8{
+    background-image: url(Pictures/box8_image.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.shop-section p{
+    color: #007185;
+}
+/* footer */
+footer{
+    margin-top: 20px;
+}
+.panel1{
+    background-color: #37475a;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    margin-bottom: 50px;
+}
+.panel1 a{
+    color: white;
+    text-decoration: none;
+}
+.panel1 a:hover{
+    text-decoration: underline;
+}
+.panell{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.panell a{
+    display: block;
+    color: rgb(216, 211, 211);
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-top: 15px;
+}
+.panell a:hover{
+    text-decoration: underline;
+}
+.panell div{
+    margin-top: 60px;
+}
+.panell p{
+    color: white;
+    font-weight: 600;
+    padding-left: 40px;
+}
